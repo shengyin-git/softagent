@@ -1,0 +1,29 @@
+{
+  "algorithm": "CEM",
+  "env_kwargs": {
+    "action_mode": "picker",
+    "action_repeat": 60,
+    "camera_name": "default_camera",
+    "deterministic": false,
+    "headless": true,
+    "horizon": 5,
+    "num_picker": 1,
+    "num_variations": 1,
+    "observation_mode": "key_point",
+    "render": false,
+    "render_mode": "cloth",
+    "save_cached_states": false,
+    "use_cached_states": true
+  },
+  "env_name": "RopeConfiguration",
+  "exp_name": "cem",
+  "log_dir": "cem/data/cem",
+  "max_iters": 30,
+  "num_elites": 20,
+  "plan_horizon": 5,
+  "population_size": 200,
+  "seed": 100,
+  "test_episodes": 1,
+  "timestep_per_decision": 6000,
+  "use_mpc": false
+}
