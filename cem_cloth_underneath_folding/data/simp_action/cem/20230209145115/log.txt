@@ -1,3 +1,0 @@
-Logging to data/simp_action/cem/20230209145115/
-episode 0
-episode 0, step 0

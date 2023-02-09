@@ -1,2 +1,0 @@
-Logging to ./data/cem
-episode 0
