@@ -1,0 +1,29 @@
+{
+  "algorithm": "CEM",
+  "env_kwargs": {
+    "action_mode": "picker",
+    "action_repeat": 8,
+    "camera_name": "default_camera",
+    "deterministic": false,
+    "headless": true,
+    "horizon": 15,
+    "num_picker": 1,
+    "num_variations": 1,
+    "observation_mode": "key_point",
+    "render": false,
+    "render_mode": "cloth",
+    "save_cached_states": false,
+    "use_cached_states": true
+  },
+  "env_name": "ClothFold",
+  "exp_name": "cem",
+  "log_dir": "./data/cem",
+  "max_iters": 20,
+  "num_elites": 33,
+  "plan_horizon": 15,
+  "population_size": 333,
+  "seed": 100,
+  "test_episodes": 1,
+  "timestep_per_decision": 100000,
+  "use_mpc": true
+}
